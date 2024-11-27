@@ -249,7 +249,6 @@ html, body {
 }
 
 .flex {
-  padding: 120px;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -257,18 +256,53 @@ html, body {
   font-size: 12px;
   font-weight: 400;
   text-align: center;
+  margin: 100px auto;
 }
+
+.flex2 {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  color: #797575;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  max-width: 80%;
+  margin: 50px auto;
+}
+
 
 .flex div {
   flex: 1 1 100px;
+  margin: 10px;
+}
+
+.flex2 div {
+  flex: 1 1 100px;
+  margin: 10px;
 }
 
 .flex p{
   margin-top: -10px;
 }
 
+.flex2 p{
+  margin-top: -10px;
+}
+
 .flex img {
-  max-width: 80%;
+  max-width: 100px;
+  height: auto;
+}
+
+.flex2 img {
+  max-width: 100px;
+  height: auto;
+}
+
+.footer-middle {
+  margin-bottom: 20px; 
+  margin-top: 10px;
 }
 
 @media (min-width: 1701px) {
@@ -390,6 +424,15 @@ html, body {
   .owl-carousel .owl-prev,
   .owl-carousel .owl-next {
     margin-top: -150px;
+  }
+
+  .flex {
+    margin-left: 200px;
+  }
+
+  .flex img {
+    max-width: 150px;
+    height: auto;
   }
 
   .img-logo-cinza {
@@ -524,6 +567,15 @@ html, body {
     margin-top: -150px;
   }
 
+  .flex {
+    margin-left: 190px;
+  }
+
+  .flex img {
+    max-width: 150px;
+    height: auto;
+  }
+
   .img-logo-cinza {
     margin-top: 6rem;
     max-width: 15%;
@@ -535,7 +587,150 @@ html, body {
   }
 }
 
-@media (min-width: 1301px) and (max-width: 1520px) {
+@media (min-width: 992px) and (max-width: 1520px) {
+  .main-text h1 {
+    font-size: 100px;
+  }
+
+  .main-text h2 {
+    font-size: 35px;
+  }
+
+  .main-text {
+    padding: 15%;
+    margin-top: -8%;
+    text-align: left;
+    background-image: url("../assets/images/Banner_Desidrat/Banner_Desidrat_v2.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-shadow: 2px 2px 10px rgba(118, 119, 122, 0.5), 0px 0px 20px rgba(118, 119, 122, 0.3);
+  }
+
+  .logo {
+    margin-left: -20px;
+  }
+
+  .navbar-buttons {
+    margin-right: -6%;
+  }
+
+  .banner-img {
+    margin-top: 20px;
+    margin-right: 40px;
+    width: 90%;
+  }
+
+  .img-right {
+    margin-top: -30px;
+    width: 70%;
+  }
+
+  .img-icon {
+    max-width: 100%;
+  }
+
+  .text-icon p {
+    color: #797575;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -22px;
+  }
+
+  .sub-text-title {
+    margin-top: 80px;
+    padding-left: 15%;
+    padding-right: 8%;
+    font-size: 100px;
+    text-align: left;
+  }
+
+  .sub-text {
+    margin-top: 70px;
+    font-size: 100px;
+  }
+
+  .sub-text-title2 {
+    padding-right: 15%;
+    padding-left: 8%;
+    font-size: 100px;
+    margin-top: 8rem;
+    margin-bottom: 10rem;
+  }
+
+  .sub-text2 {
+    font-size: 100px;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    padding-left: 15%;
+    padding-right: 8%;
+  }
+
+  .sub-text-title3 {
+    text-align: center;
+  }
+
+  .buttom-more {
+    text-align: right;
+  }
+
+  .card {
+    margin-top: -120px;
+    width: 70%;
+    margin-bottom: 120px;
+  }
+
+  .foto-perfil {
+    width: 120px;
+    height: 120px;
+  }
+
+  .title-card {
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .text-card {
+    color: #fff;
+    font-size: 12px;
+    text-align: justify;
+    padding: 50px;
+  }
+
+  .product-item img{
+    width: 100%; 
+    height: 160px;
+  }
+
+  .owl-carousel .owl-prev,
+  .owl-carousel .owl-next {
+    margin-top: -130px;
+  }
+
+  .flex {
+    margin-left: 190px;
+  }
+
+  .flex img {
+    max-width: 105px;
+    height: auto;
+  }
+
+  .img-logo-cinza {
+    margin-top: 6rem;
+    max-width: 15%;
+    margin-bottom: 6rem;
+  }
+
+  .footer-left {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
   .main-text h1 {
     font-size: 100px;
   }
@@ -597,13 +792,15 @@ html, body {
 
   .sub-text {
     font-size: 100px;
+    margin-top: 100px;
+    text-align: center;
   }
 
   .sub-text-title2 {
     padding-right: 15%;
     padding-left: 8%;
     font-size: 100px;
-    margin-top: 10rem;
+    margin-top: 6rem;
     margin-bottom: 10rem;
   }
 
@@ -657,6 +854,15 @@ html, body {
     margin-top: -130px;
   }
 
+  .flex {
+    margin-left: 100px;
+  }
+
+  .flex img {
+    max-width: 105px;
+    height: auto;
+  }
+
   .img-logo-cinza {
     margin-top: 6rem;
     max-width: 15%;
@@ -668,14 +874,22 @@ html, body {
   }
 }
 
-@media (min-width: 769px) and (max-width: 1300px) {
+@media (max-width: 768px) {
+  .main-text h1 {
+    font-size: 60px;
+  }
+
+  .main-text h2 {
+    font-size: 20px;
+  }
+
   .main-text {
-    padding: 10%;
-    margin-top: -8%;
+    margin-top: -1rem;
+    padding-left: 40px;
     text-align: left;
     background-image: url("../assets/images/Banner_Desidrat/Banner_Desidrat_v2.png");
     background-size: contain;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     color: #fff;
     text-shadow: 2px 2px 10px rgba(118, 119, 122, 0.5), 0px 0px 20px rgba(118, 119, 122, 0.3);
@@ -683,35 +897,109 @@ html, body {
 
   .logo {
     margin-left: 5px;
-    max-width: 50%;
+    max-width: 60%;
   }
 
-  .navbar-buttons {
-    margin-right: -8%;
-  }
-
-  .navbar-nav {
-    margin-left: 8px;
-  }
-
-  .footer-left {
-    margin-left: 0;
-  }
-}
-
-@media (max-width: 768px) {
-  .main-text {
-    padding: 20px;
-    text-align: center;
-  }
-
-  .logo {
-    margin-left: 10px;
-    max-width: 50%;
+  .logo-img {
+    width: 100%;
   }
 
   .navbar-nav {
     margin-left: 12px;
+  }
+
+  .img-right {
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .img-icon {
+    margin-left: -10px;
+    width: 120%;
+  }
+
+  .sub-text {
+    text-align: center;
+  }
+
+  .sub-text2 {
+    text-align: center;
+  }
+
+  .sub-text-title {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+
+  .sub-text-title2 {
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 100px;
+    margin-top: 20px;
+    margin-bottom: 10rem;
+  }
+
+  .sub-text-title3 {
+    padding-right: 12%;
+    padding-left: 12%;
+    font-size: 100px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .buttom-more {
+    text-align: left;
+  }
+
+  .card {
+    margin-top: -120px;
+    width: 70%;
+    margin-bottom: 80px;
+  }
+
+  .foto-perfil {
+    width: 120px;
+    height: 120px;
+  }
+
+  .title-card {
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .text-card {
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    padding: 40px;
+    margin-top: -50px
+  }
+
+  .product-item img{
+    width: 100%; 
+    height: 200px;
+  }
+
+  .owl-carousel .owl-prev,
+  .owl-carousel .owl-next {
+    margin-top: -150px;
+  }
+
+  .flex {
+    margin-bottom: 50px;
+  }
+
+  .img-logo-cinza {
+    margin-top: 6rem;
+    max-width: 70%;
+    margin-bottom: 6rem;
+  }
+
+  .text-icon p {
+    font-size: 10px;
+    margin-top: -22px;
   }
 
   .footer-left {
@@ -756,6 +1044,7 @@ html, body {
   .img-right {
     margin-top: 20px;
     width: 100%;
+    margin-bottom: 20px;
   }
 
   .img-icon {
@@ -768,7 +1057,6 @@ html, body {
   }
 
   .sub-text2 {
-    margin-top: -1rem;
     text-align: center;
   }
 
@@ -781,7 +1069,7 @@ html, body {
     padding-right: 10%;
     padding-left: 10%;
     font-size: 100px;
-    margin-top: -4rem;
+    margin-top: 20px;
     margin-bottom: 10rem;
   }
 
@@ -789,13 +1077,57 @@ html, body {
     padding-right: 12%;
     padding-left: 12%;
     font-size: 100px;
-    margin-top: -4rem;
-    margin-bottom: 10rem;
+    margin-bottom: 20px;
     text-align: left;
   }
 
   .buttom-more {
     text-align: left;
+  }
+
+  .card {
+    margin-top: -120px;
+    width: 70%;
+    margin-bottom: 80px;
+  }
+
+  .foto-perfil {
+    width: 120px;
+    height: 120px;
+  }
+
+  .title-card {
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .text-card {
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    padding: 40px;
+    margin-top: -50px
+  }
+
+  .product-item img{
+    width: 100%; 
+    height: 200px;
+  }
+
+  .owl-carousel .owl-prev,
+  .owl-carousel .owl-next {
+    margin-top: -150px;
+  }
+
+  .flex {
+    margin-bottom: 50px;
+  }
+
+  .img-logo-cinza {
+    margin-top: 6rem;
+    max-width: 70%;
+    margin-bottom: 6rem;
   }
 
   .text-icon p {
