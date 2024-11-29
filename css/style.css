@@ -14,6 +14,7 @@ html, body {
   font-family: 'Circular Std', Arial, sans-serif;
   overflow-x: hidden;
   background: linear-gradient(to bottom right, #cad1d7, #e0e0e0, #cfe9e6);
+  scroll-behavior: smooth;
 }
 
 .navbar {
