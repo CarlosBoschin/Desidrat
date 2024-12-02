@@ -1175,9 +1175,17 @@ footer {
 }
 
 .footer label {
-  color: #cacaca;
+  color: #76777a;
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 0;
+}
+
+.footer label2 {
+  color: #909194;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: bolder;
   text-align: center;
   margin: 0;
 }
